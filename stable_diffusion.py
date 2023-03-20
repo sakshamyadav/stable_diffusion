@@ -20,7 +20,7 @@ models = files.upload()
 # Upload the 17 images to colab
 images = files.upload()
 
-Get model file from colab
+# Get model file from colab
 model_file = list(models.keys())[0]
 
 # Open the model file in read mode
